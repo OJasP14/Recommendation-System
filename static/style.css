@@ -1,0 +1,301 @@
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+.navbar {
+  background-color: #00bfff;
+  color: #fff;
+}
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+.nav > li > a {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background-color: #00a6ff;
+  color: #fff;
+}
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #333;
+}
+.card {
+  background-color: #e7ebeacb;
+  border: 1px solid #333;
+  margin: 20px;
+
+  height: 450px; /* set a fixed height for all cards */
+  display: flex; /* enable flexbox for the card element */
+  flex-direction: column; /* align card content vertically */
+  justify-content: center; /* align card content horizontally */
+}
+.card-body {
+  padding: 20px;
+}
+.card-img-top {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 2px;
+}
+h3{
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #333;
+}
+h4 {
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: #333;
+}
+form{
+    margin-bottom: 50px;
+}
+
+.form-control{
+    font-size: 24px;
+    padding: 25px;
+    border-radius: 0;
+}
+
+.btn-warning{
+    font-size: 24px;
+    padding: 12px 25px;
+    border-radius: 0;
+    background-color: #ffc107;
+    border: none;
+}
+
+.btn-warning:hover{
+    background-color: #ffa000;
+}
+
+
+.carousel {
+  position: relative;
+  width: 1500px;
+  height: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  width: 1600px;
+  height: 400px;
+  transition: transform 0.5s ease;
+}
+
+.slides img {
+  width: 1600px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 40px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+
+
+
+
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+
+th {
+  background-color: #00bfff;
+  color: white;
+}
+
+td {
+  background-color: #f5f5f5;
+}
+.btton-container {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.btton-container button {
+  background-color: white;
+  
+  color: #00bfff;
+  border: none;
+  padding: 8px 16px;
+  margin-right: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btton-container button:hover {
+  background-color: #00bfff;
+  color: white;
+}
+
+
+.btton-container button:first-child {
+  margin-right: 10px; /* Adjust the margin */
+  margin-left: 0; /* Add this line to override the default margin */
+}
+
+.btton-container button:last-child {
+  margin-right: 0; /* Add this line to remove the right margin */
+  margin-left: auto; /* Add this line to push the button to the right */
+}
+span{
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  margin-top:10px;
+  color: #00bfff;
+  flex-grow: 1; 
+}
+
+
+
+
+
+
+
+
+
+
+
+.timer {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+
+
+
+
+
+.footer {
+  background-color: #00bfff;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-top {
+  margin-bottom: 20px;
+}
+
+.footer h3 {
+  margin-top: 0;
+}
+
+.footer p {
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+}
+
+.footer-social a {
+  color: white;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+.footer-social i {
+  font-size: 18px;
+}
+
+.footer-bottom p {
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+.cc{
+  max-width: 400px;
+  margin: 0 auto;
+}
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 5px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+
+
+  background-color: white;
+  
+  color: #00bfff;
+  flex-grow: 1;
+
+
+}
+
+button:hover {
+  background-color: #00bfff;
+  color: white;
+}
